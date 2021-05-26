@@ -181,7 +181,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 .con,.offers,.tc{
     background-color: rgb(221, 221, 221);
