@@ -1,0 +1,308 @@
+*body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    background-color: lightblue;
+}
+
+/* header Area */
+.header{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    color: white;
+    background-image: linear-gradient(rgb(57, 133, 163),rgb(52, 162, 196));
+}
+.header nav{
+    margin: 3px;
+    padding: 5px;
+}
+.header nav a{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.665);
+    color:skyblue;
+    padding: 3px;
+    margin: 2px;
+    border: 0.8px solid black;
+    border-radius: 2px;
+    transition: 0.8s;
+}
+.header nav strong{
+    right: 5px;
+}
+.header nav a i{
+    padding-right: 2px;
+}
+.header nav a:hover{
+    background-color: rgba(0, 0, 0, 0.665);
+    opacity: 70%;
+    border: 0.8px solid white;
+}
+
+/* Filter Area */
+.filter{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.filter input[type='number'],select{
+    padding:3px;
+    margin: 2px;
+    margin-left: 5px;
+    border: 0.7px solid black;
+    border-radius: 0px;
+}
+.filter input[type='submit'],[type='reset']{
+    background-color: skyblue;
+    padding: 6px;
+    margin: 2px;
+    font-size: 10px;
+    border: 0.7px solid transparent;
+    border-radius: 1px;
+    text-transform: uppercase;
+    transition: 0.8s;
+}
+.filter input[type='submit']:hover,[type='reset']:hover{
+    background-color: steelblue;
+}
+
+/* Titles area */
+.titles{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.titles strong,h2{
+    border: 0.5px solid transparent;
+    border-bottom: 0.5px solid skyblue;
+    padding: 4px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: 0.8s;
+}
+.titles strong:hover,.titles h2:hover{
+    border: 0.5px solid skyblue;
+    background-color: rgb(0, 206, 206);
+}
+/* Themes collection */
+.collection{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame{
+    max-width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.in-frame{
+    display: block;
+    position: relative;
+    flex-wrap: wrap;
+    background-color: rgb(221, 221, 221);
+    max-width:400px;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    transition: 0.8s;
+    border: 1px solid transparent;
+}
+.in-frame img{
+    max-width:400px;
+    padding: 0%;
+    margin: 0%;
+    border: 1px solid transparent;
+
+}
+.in-frame b{
+    color: rgb(15, 73, 197);
+    padding: 0px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    transition: 0.8s;
+}
+.in-frame:hover{
+    opacity: 96%;
+    border-radius: 0px ;
+    color: tomato;
+}
+.in-frame b:hover{
+    color: tomato;
+}
+.in-frame strong{
+    color: rgb(15, 73, 197);
+}
+.tran{
+    padding: 3px;
+}
+.tran input[type='button']{
+    padding: 8px;
+    background-color: grey;
+    color: aliceblue;
+    border: 1px solid transparent;
+    transition: 0.8s;
+}
+.tran input[value='Preview']:hover{
+    background-color: black;
+}
+.tran input[value='Buy Now']{
+    background-color: green;
+}
+.tran input[value='Buy Now']:hover{
+    background-color: rgb(10, 46, 10);
+}
+
+
+/* Conditions class css area code */
+.conditions{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.con,.offers,.tc{
+    background-color: rgb(221, 221, 221);
+    display: block;
+    max-width: fit-content;
+    max-width: 500px;   
+    height: auto;
+    font-size: 13px;
+    padding: 8px;
+    margin: 3px;
+    margin-top: 0px;
+}
+.con h3,.offers h3,.tc h3{
+    border-bottom: 1px solid black;
+}
+.offers li,.con li{
+    padding: 3px;
+    margin: 5px;
+    transition: 0.8s;
+}
+.offers li:hover,.con li:hover{
+    color: black;
+    opacity: 80%;
+}
+
+/* Footer Area */
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: rgb(56, 56, 56);
+    max-width: auto;
+    height: auto;
+    justify-content: center;    
+}
+.implinks,.ftheme{
+    display: block;
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    max-width: fit-content;
+    background-color: transparent;
+    color: black;
+    border-bottom: 1px solid transparent;
+}
+.developer{
+    display: block;
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    max-width: fit-content;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid transparent;
+}
+.implinks a,.ftheme a,.developer a{
+    text-decoration: none;
+    color: skyblue;
+    border: 1px solid transparent;
+    font-size: 12px;
+    transition: 0.8s;
+}
+.developer a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    font-size: 12px;
+    transition: 0.8s;
+}
+.implinks a:hover,.ftheme a:hover,.developer a:hover{
+    color: darkgray;
+}
+.implinks strong,.ftheme strong,.developer strong{
+    margin-top: 0%;
+    color: aliceblue;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: auto;
+    font-size: 14px;
+    margin-top: 5px;
+}
+#linkedin i,#twitter i,#facebook i,#insta i,#github i{
+    padding: 11px;
+    margin: 1px;
+    font-size: 18px;
+    border-radius: 50%;
+    opacity: 80%;
+    transition: 0.8s;
+}
+#linkedin i{
+    background-color: rgb(17, 90, 201);
+    color: white;
+}
+#twitter i{
+    background-color: rgb(23, 194, 213);
+    color: white;
+}
+#facebook i{
+    background-color: rgb(3, 22, 128);
+    color: white;
+}
+#insta i{
+    background-color: rgb(220, 33, 204);
+    color: white;
+}
+#github i{
+    background-color: rgb(3, 3, 4);
+    color: white;
+}
+#linkedin i:hover,#twitter i:hover,#facebook i:hover,#insta i:hover{
+    color: black;
+}
+#github i:hover{
+    background-color: aliceblue;
+    color: black;
+}
