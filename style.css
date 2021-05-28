@@ -256,6 +256,7 @@
 }
 .implinks a:hover,.ftheme a:hover,.developer a:hover{
     color: darkgray;
+    text-decoration: underline;
 }
 .implinks strong,.ftheme strong,.developer strong{
     margin-top: 0%;
